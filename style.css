@@ -1,5 +1,17 @@
-h1 {
-  color: #d87676;
+body {
+  margin: 0;
+  background-color: #ff1e00;
+  display: flex;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 75px;
 }
 
 /*# sourceMappingURL=style.css.map */
