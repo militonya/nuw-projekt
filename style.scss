@@ -4,19 +4,20 @@ body {
   }
   
   header {
+    display: flex;
     width: 100%;
     background-color: black;
+    padding-left: 1px;
+    padding-right: 1px;
   }
   
   #logo {
     width: 16%;
     margin-left: 10px;
-    display: inline-block;
+  
   }
 
-  #nav {
-    display: inline-block;
-  }
+  
   
   #fia {
     width: 41%;
