@@ -1,323 +1,328 @@
 body {
-  margin: 0;
-  background-color: #ff1e00;
-}
-
-header {
-  width: 100%;
-  background-color: black;
-  padding-left: 1px;
-  padding-right: 1px;
-}
-
-#logo {
-  width: 16%;
-  margin-left: 10px;
-}
-
-#fia {
-  width: 41%;
-  height: 78px;
-  margin: 12px 6px;
-}
-
-#for3 {
-  width: 41%;
-  height: 78px;
-  margin: 12px 6px;
-}
-
-.class1 {
-  background-color: #ff1e00;
-  width: 30%;
-}
-
-header nav {
-  display: flex;
-  width: 76.1%;
-  position: relative;
-  left: 5%;
-  align-items: center;
-}
-
-header nav div {
-  display: inline-block;
-  width: 19%;
-  height: 80%;
-  background-color: #ff1e00;
-  border-radius: 8px;
-  text-align: center;
-  line-height: 79.2px;
-  transition: 3s;
-}
-
-header nav > div + div {
-  margin-left: 4%;
-}
-
-main {
-  display: inline-blockp;
-  width: 71%;
-  font-size: 16px;
-  position: absolute;
-  left: 25%;
-}
-
-.tim {
-  width: 100%;
-  height: 565%;
-  color: #ff1e00;
-  background-color: black;
-  position: absolute;
-  left: 0;
-  top: 90.7%;
-  z-index: 1;
-  line-height: 50px;
-  display: none;
-}
-
-.class2:hover .tim {
-  display: block;
-}
-
-.tim div {
-  display: inline-block;
-  margin: 0.5% 1%;
-  width: 21%;
-  height: 23%;
-  border: solid white;
-  border-width: 0 8px 8px 0;
-  background-color: wheat;
-  font-size: 16px;
-  transition: 3s;
-}
-
-.tim img {
-  width: 206px;
-  height: 61px;
-  margin: 0;
-}
-
-.tim span {
-  background-color: wheat;
-}
-
-aside {
-  display: inline-block;
-  width: 21%;
-  height: 80%;
-  border: solid 1px black;
-  margin: 5px;
-  position: fixed;
-}
-
-iframe {
-  width: 100%;
-}
-
-img {
-  height: 75px;
-  margin: 12px 15px;
-}
-
-#mk1 {
-  color: black;
-  font-size: 10px;
-  position: absolute;
-  left: 9.5%;
-  top: 2%;
-}
-
-span {
-  color: black;
-}
-
-#ver1 {
-  background-color: black;
-  color: #ff1e00;
-}
-
-hr {
-  border: #ff1e00 1px solid;
-}
-
-#alfa:hover {
-  border: #c92d4b solid;
-  border-width: 0px 8px 8px 0px;
-}
-
-#alfa:hover #turbo {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#alpha:hover {
-  border: #5e8faa solid;
-  border-width: 0 8px 8px 0;
-}
-
-#alpha:hover #taur {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#alpine:hover {
-  border: #2293d1 solid;
-  border-width: 0 8px 8px 0;
-}
-
-#alpine:hover #pine {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#aston:hover {
-  border: #358c75 solid;
-  border-width: 0 8px 8px 0;
-}
-
-#aston:hover #martin {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#ferrari:hover {
-  border: #f91536 solid;
-  border-width: 0 8px 8px 0;
-}
-
-#ferrari:hover #fera1 {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#haas:hover {
-  border: #b6babd solid;
-  border-width: 0 8px 8px 0;
-}
-
-#haas:hover #has {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#maclaren1:hover {
-  border: #f58020 solid;
-  border-width: 0 8px 8px 0;
-}
-
-#maclaren1:hover #laren {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#mers:hover {
-  border: #6cd3bf solid;
-  border-width: 0 8px 8px 0;
-}
-
-#mers:hover #des {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#red:hover {
-  border: #3671c6 solid;
-  border-width: 0 8px 8px 0;
-}
-
-#red:hover #bull {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#uli:hover {
-  border: #37bedd solid;
-  border-width: 0 8px 8px 0;
-}
-
-#uli:hover #yams {
-  width: 40px;
-  height: 40px;
-  transform: rotate(360deg);
-}
-
-#turbo {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#taur {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#pine {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#martin {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#fera1 {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#has {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#laren {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#des {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#bull {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
-#yams {
-  width: 3px;
-  height: 3px;
-  border-radius: 108px;
-  transition: 2s;
-}
-
+    margin: 0;
+    background-color: #ff1e00;
+  }
+  
+  header {
+    display: flex;
+    width: 100%;
+    background-color: black;
+  }
+  
+  #logo {
+    width: 16%;
+    margin-left: 10px;
+  }
+  
+  #fia {
+    width: 41%;
+    height: 78px;
+    margin: 12px 6px;
+  }
+  
+  #for3 {
+    width: 41%;
+    height: 78px;
+    margin: 12px 6px;
+  }
+  
+  .class1 {
+    background-color: #ff1e00;
+    width: 30%;
+  }
+  
+  header nav {
+    display: flex;
+    width: 76.1%;
+    position: relative;
+    left: 5%;
+    align-items: center;
+  }
+  
+  header nav div {
+    display: inline-block;
+    width: 19%;
+    height: 80%;
+    background-color: #ff1e00;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 79.2px;
+    transition: 3s;
+  }
+  
+  header nav > div + div {
+    margin-left: 4%;
+  }
+  
+  main {
+    display: inline-blockp;
+    width: 71%;
+    font-size: 16px;
+    position: absolute;
+    left: 25%;
+  }
+  
+  .tim {
+    width: 100%;
+    height: 565%;
+    color: #ff1e00;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 90.7%;
+    z-index: 1;
+    line-height: 50px;
+    display: none;
+  }
+  
+  .class2:hover .tim {
+    display: block;
+  }
+  
+  .tim div {
+    display: inline-block;
+    margin: 0.5% 1%;
+    width: 21%;
+    height: 23%;
+    border: solid white;
+    border-width: 0 8px 8px 0;
+    background-color: wheat;
+    font-size: 16px;
+    transition: 3s;
+  }
+  
+  .tim img {
+    width: 206px;
+    height: 61px;
+    margin: 0;
+  }
+  
+  .tim span {
+    background-color: wheat;
+  }
+  
+  aside {
+    display: inline-block;
+    width: 21%;
+    height: 80%;
+    border: solid 1px black;
+    margin: 5px;
+    position: fixed;
+  }
+  
+  iframe {
+    width: 100%;
+  }
+  
+  img {
+    height: 75px;
+    margin: 12px 15px;
+  }
+  
+  #mk1 {
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    left: 9.5%;
+    top: 2%;
+  }
+  
+  span {
+    color: black;
+  }
+  
+  #ver1 {
+    background-color: black;
+    color: #ff1e00;
+  }
+  
+  hr {
+    border: #ff1e00 1px solid;
+  }
+  
+  #alfa:hover {
+    border: #c92d4b solid;
+    border-width: 0px 8px 8px 0px;
+  }
+  
+  #alfa:hover #shina {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #alpha:hover {
+    border: #5e8faa solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #alpha:hover #taur {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #alpine:hover {
+    border: #2293d1 solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #alpine:hover #pine {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #aston:hover {
+    border: #358c75 solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #aston:hover #martin {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #ferrari:hover {
+    border: #f91536 solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #ferrari:hover #fera1 {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #haas:hover {
+    border: #b6babd solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #haas:hover #has {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #maclaren1:hover {
+    border: #f58020 solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #maclaren1:hover #laren {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #mers:hover {
+    border: #6cd3bf solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #mers:hover #des {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #red:hover {
+    border: #3671c6 solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #red:hover #bull {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #uli:hover {
+    border: #37bedd solid;
+    border-width: 0 8px 8px 0;
+  }
+  
+  #uli:hover #yams {
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg);
+  }
+  
+  #shina {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #taur {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #pine {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #martin {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #fera1 {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #has {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #laren {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #des {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #bull {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  #yams {
+    width: 3px;
+    height: 3px;
+    border-radius: 108px;
+    transition: 2s;
+  }
+  
+  a {
+    margin: 0;
+  }
+  
+  
+  
