@@ -6,13 +6,16 @@ body {
 header {
   width: 100%;
   background-color: black;
-  padding-left: 1px;
-  padding-right: 1px;
 }
 
 #logo {
   width: 16%;
   margin-left: 10px;
+  display: inline-block;
+}
+
+#nav {
+  display: inline-block;
 }
 
 #fia {
@@ -146,7 +149,7 @@ hr {
   border-width: 0px 8px 8px 0px;
 }
 
-#alfa:hover #turbo {
+#alfa:hover #shina {
   width: 40px;
   height: 40px;
   transform: rotate(360deg);
@@ -251,7 +254,7 @@ hr {
   transform: rotate(360deg);
 }
 
-#turbo {
+#shina {
   width: 3px;
   height: 3px;
   border-radius: 108px;
@@ -319,6 +322,10 @@ hr {
   height: 3px;
   border-radius: 108px;
   transition: 2s;
+}
+
+a {
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

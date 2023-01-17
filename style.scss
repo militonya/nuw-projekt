@@ -4,7 +4,6 @@ body {
   }
   
   header {
-    display: flex;
     width: 100%;
     background-color: black;
   }
@@ -12,6 +11,11 @@ body {
   #logo {
     width: 16%;
     margin-left: 10px;
+    display: inline-block;
+  }
+
+  #nav {
+    display: inline-block;
   }
   
   #fia {
