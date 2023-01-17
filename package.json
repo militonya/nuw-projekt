@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "turbo": "sass -w ./:./",
-    "biturbo":"sass ./:./",
+    "biturbo": "sass ./:./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
